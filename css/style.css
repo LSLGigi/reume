@@ -162,6 +162,66 @@ nav ul li a:hover{
     font-size:20px;
 }
 /*基本信息结束*/
+/*个人作品开始*/
+.seven{
+    background-color: #2389bf;
+    padding: 20px 0 140px;
+}
+.seven h2{
+    margin: 0;
+    padding: 50px 0 0;
+    text-align: center;
+    color: #fff;
+}
+.seven .hr{
+    background: #F4D03F;
+    width: 8%;
+    height: 5px;
+    margin: 16px auto 90px;
+}
+.seven .demo{
+    float: left;
+    width: 25%;
+}
+.seven .demo a{
+    width: 180px;
+    height: 180px;
+    display: block;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.seven #demo1 a{
+    background-color: #ED6461;
+}
+.seven #demo2 a{
+    background-color: #9C58B6;
+}
+.seven #demo3 a{
+    background-color: #16CC70;
+}
+.seven #demo4 a{
+    background-color: #ea851cde;
+}
+.seven .demo a span{
+    margin: 70px auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.seven .demo a:hover span{
+    text-decoration: underline;
+}
+.seven .demo .desc{
+    width: 80%;
+    margin: 40px auto;
+    font-size: 18px;
+    color: #fff;
+}
+/*个人作品结束*/
 /*校内经历开始*/
 .two{
     background:#575050;
