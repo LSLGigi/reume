@@ -6,6 +6,26 @@
     display: block;
     clear:both;
 }
+/*返回顶部*/
+#backtop{
+  z-index: 999;
+  position: fixed;
+  bottom: 60px;
+  right: 50px; 
+  width: 50px; 
+  height: 0;
+  /*background-color: green;*/
+  background: url(../images/totop.png) center no-repeat; 
+  background-size: 100% 100%;
+  transition: 1s;
+}
+#backtop.show {
+   height: 50px;
+}
+#backtop.show:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
 /*头部开始*/
 .btn{
     display: block;
