@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
 </head>
 <body>
+    <!-- 返回顶部 -->
+    <a href="#header" id="backtop"></a>
    <div class="main-wrapper">
     <!--头部开始-->
     <header class="intro">
@@ -271,6 +273,15 @@
    </div>
    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
    <script src="js/smoothSchool.js"></script>
-
+   <script>
+   $(function(){
+    $(window).scroll(function(){
+      $(this).scrollTop()>100?$("#backtop").addClass('show'):$("#backtop").removeClass('show');
+    })
+    $("#backtop").click(function(){
+      $("html,body").animate({scrollTop:0},700);
+    })
+   })
+   </script>
 </body>
 </html>
